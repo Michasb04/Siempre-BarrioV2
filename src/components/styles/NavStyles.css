@@ -1,0 +1,70 @@
+.nav-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-text {
+    color: yellow;
+    font-family: "Water Brush";
+    font-size: 30px;
+    font-weight: 900;
+    border: none;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #050709c2;
+    padding: 15px;
+    user-select: none;
+    
+    & ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-left: 100px;
+        gap: 50px;
+        list-style: none;
+    }
+
+    & ul a{
+        border-bottom: 1px solid transparent;
+        transition: all .55s ease-out;
+    }
+
+    & ul a:hover{
+        color: yellow;
+        border-bottom: 1px solid yellow;
+    }
+
+    & i{
+        padding-right: 5px;
+    }
+
+    & a{
+        user-select: none;
+        font-size: 15px;
+        color: white;
+        height: auto;
+    }
+
+    animation: header linear both;
+    animation-timeline: scroll(root block); /*Escuchar el Scroll Vertical*/
+    animation-range: 0 200px;
+}
+
+@keyframes header{
+    to{
+        background: rgba(20, 22,20, 0.8);
+        backdrop-filter: blur(50px);
+        transition: all .55s ease;
+    }
+}

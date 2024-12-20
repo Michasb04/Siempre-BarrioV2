@@ -1,0 +1,33 @@
+.social-media-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background: #050709c2;
+}
+
+span{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.social-media-footer p{
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.icons-footer img{
+    margin: 5px 10px;
+    transition: all .55s ease-out;
+}
+
+.icons-footer img:hover{
+    transform: scale(1.3);
+    transition: all .55s ease-out;
+}
