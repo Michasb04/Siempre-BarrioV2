@@ -11,7 +11,7 @@
 body{
   background-image:
     linear-gradient( to top right,#0f0715e5,#140c1cf3,#1f1038f3 40% 60%,#2a1454ef),
-    url(/Ladrillos.png);
+    url(../public/images/Ladrillos.png);
   background-attachment: fixed;
   background-size: contain;
   overflow-x: hidden;
