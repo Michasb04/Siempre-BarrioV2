@@ -1,5 +1,5 @@
 import '../styles/Products.css'
-import ImgProductos from "./ImagesProducts";
+import Cards from "./Cards";
 
 const Products = () =>  {
     return(
@@ -12,7 +12,7 @@ const Products = () =>  {
         </div>
 
         <div>
-            <ImgProductos/>
+            <Cards/>
         </div>
     </div>
     </section>
