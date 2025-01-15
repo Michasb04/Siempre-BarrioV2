@@ -1,4 +1,5 @@
 import '../styles/NavStyles.css'
+import "remixicon/fonts/remixicon.css";
 
 const Navbar = () => {
   return (
@@ -10,6 +11,9 @@ const Navbar = () => {
         <li><a href="#products">Productos</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
+      <button className="hamburguer-menu" id="menu-icon">
+        <i className="ri-menu-3-line"></i>
+      </button>  
       </div>
     </nav>
   );

@@ -2,6 +2,7 @@
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0 100px 0 100px;
 }
@@ -59,6 +60,24 @@ nav{
     animation: header linear both;
     animation-timeline: scroll(root block); /*Escuchar el Scroll Vertical*/
     animation-range: 0 200px;
+}
+
+.hamburguer-menu{
+    width: 50px;
+    color: white;
+
+    & i{
+        font-size: 20px;
+    }
+
+    & i:hover{
+        color: yellow;
+        cursor: pointer;
+    }
+
+    @media (min-width: 768px){
+        display: none;
+    }
 }
 
 @keyframes header{

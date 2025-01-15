@@ -49,7 +49,7 @@ const ImgProductos = () =>{
         <div className="card">
             <img src={product6} alt="Candongas" />
             <div className="card-content">
-                <h3>""Lleva el ritmo de la calle contigo"</h3>
+                <h3>"Lleva el ritmo de la calle contigo"</h3>
                 <p>Cada prenda está hecha para moverte con actitud y libertad. Camina, baila y vive al compás de la moda urbana. 🎶👟</p>
             </div>
         </div>        
